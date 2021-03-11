@@ -1,0 +1,47 @@
+/*
+Shahriar ahmed
+My 1st project for one month
+*/
+body {
+	background: url('../images/1-scene.jpg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: bottom-right;
+	background-size: 100px;
+	width:100px;
+	height:200px;
+	perspective-origin: bottom-right;
+	background-repeat: no-repeat;;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#container{
+        background: black;
+        width: 500px;
+        height: 800px;
+        color: #DEE5E6;
+        padding: 10px;
+        font-family: Tw Cen MT;
+
+}
+
+h1{
+	font-size: 100px;
+   }
+h2{
+   color: black;
+   font-size: 40px;
+   background-color: #69B9CB;
+   padding: 5px;
+    border-radius: 5px ;
+   
+}
+a { 
+	color: #69B9CB;
+	text-decoration: none;
+}
+p {
+	font-size: 30px;
+}
